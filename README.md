@@ -4,19 +4,19 @@ Evaluation of Scottish Gaelic → English machine translation using BLEU, chrF, 
 
 ---
 
-## 👤 Author
+## Author
 
 Danya Leyva  
 California State University, Dominguez Hills
 
-## 👩‍🏫 Advisor
+## Advisor
 
 Benyamin Ahmadnia  
 California State University, Dominguez Hills
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project investigates how to improve translation quality for a **low-resource language (Scottish Gaelic)**.
 
@@ -30,7 +30,7 @@ All models are evaluated on the **same fixed test subset** to ensure a fair and 
 
 ---
 
-## ❓ Research Question
+## Research Question
 
 Can translation quality for Scottish Gaelic be improved more effectively through:
 
@@ -39,7 +39,7 @@ Can translation quality for Scottish Gaelic be improved more effectively through
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 - Built baseline translations using **NLLB**
 - Cleaned and filtered parallel dataset (LaBSE-based filtering)
@@ -52,7 +52,7 @@ Can translation quality for Scottish Gaelic be improved more effectively through
 
 ---
 
-## 📊 Results
+## Results
 
 | Model            | BLEU  | chrF  | COMET |
 | ---------------- | ----- | ----- | ----- |
@@ -62,7 +62,7 @@ Can translation quality for Scottish Gaelic be improved more effectively through
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 - LLM post-editing produced **only small improvements** over the baseline
 - Fine-tuning on cleaned data resulted in **significant gains across all metrics**
@@ -70,7 +70,7 @@ Can translation quality for Scottish Gaelic be improved more effectively through
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 The repository includes:
 
@@ -81,16 +81,19 @@ See notebook outputs or poster for figures.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ├── ScottishGaelic*to_English.ipynb
+|
 ├── Poster/
+|
 ├── Danya Leyva * GMIS Poster .pptx.pdf
+|
 ├── README.md
 
 ---
 
-## 🔁 Reproducibility
+## Reproducibility
 
 - Fixed test subset used across all experiments
 - Same evaluation metrics applied consistently
@@ -98,7 +101,7 @@ See notebook outputs or poster for figures.
 
 ---
 
-## 🚧 Limitations
+## Limitations
 
 - Limited high-quality Gaelic data
 - Overfitting observed in extended fine-tuning
@@ -106,7 +109,7 @@ See notebook outputs or poster for figures.
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - Expand dataset size and diversity
 - Improve filtering methods
@@ -115,7 +118,7 @@ See notebook outputs or poster for figures.
 
 ---
 
-## 📚 References
+## References
 
 - Costa-jussà et al. (2022). _No Language Left Behind_
 - Papineni et al. (2002). _BLEU_
@@ -124,6 +127,6 @@ See notebook outputs or poster for figures.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 This work was supported by the **CAHSI LREU Program** and the **National Science Foundation (NSF)**.
