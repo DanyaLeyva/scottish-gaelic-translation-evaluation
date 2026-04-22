@@ -81,15 +81,15 @@ See notebook outputs or poster for figures.
 
 ---
 
-## Repository Structure
+## 📁 Repository Structure
 
-├── ScottishGaelic*to_English.ipynb
-|
+```text
+scottish-gaelic-translation-evaluation/
+├── _ScottishGaelic_to_English_.ipynb
 ├── Poster/
-|
-├── Danya Leyva * GMIS Poster .pptx.pdf
-|
-├── README.md
+├── Danya Leyva _ GMIS Poster .pptx.pdf
+└── README.md
+```
 
 ---
 
