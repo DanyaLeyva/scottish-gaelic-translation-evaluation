@@ -83,13 +83,11 @@ See notebook outputs or poster for figures.
 
 ## 📁 Repository Structure
 
-```text
 scottish-gaelic-translation-evaluation/
 ├── _ScottishGaelic_to_English_.ipynb
 ├── Poster/
-├── Danya Leyva _ GMIS Poster .pptx.pdf
+├── Danya Leyva \_ GMIS Poster .pptx.pdf
 └── README.md
-```
 
 ---
 
